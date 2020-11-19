@@ -1,0 +1,172 @@
+.progress { position: fixed; top: 0; left: 0; height: 10px; background-color: purple; transition: all linear 0.1s; min-width: 1%; }
+
+body {
+  background :#FFF2F2;
+}
+
+header {
+position: absolute;
+
+width: 3000px ;
+height: 17px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: left;
+
+color: #000000;
+}
+
+h1 {
+
+max-width: 1130px ;
+margin: 0 auto;
+padding-top: 45px;
+
+
+font-family: Louize Display trial;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 110px;
+text-transform: uppercase;
+
+color: #414141;
+}
+
+h2 {
+  /* Neil Gailman */
+  max-width: 900px ;
+  margin: 0 auto;
+width: 176px;
+height: 29.42px;
+left: 80px;
+top: 615.02px;
+padding-top: 0,5em;
+
+/* Sous titres */
+
+font-family: Times New Roman;
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+/* identical to box height */
+
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #414141;
+}
+
+h3 {
+  max-width: 900px ;
+  margin: 0 auto;
+width: 118px;
+height: 53.74px;
+left: 211px;
+top: 675px;
+padding-top: 1em;
+
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+text-transform: uppercase;
+color: #414141;
+
+
+/*border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 51.2383px;*/
+
+}
+
+h4 {
+padding-top: 3em;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #414141;
+  }
+
+h5 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    max-width: 960px ;
+    margin: 0 auto;
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #414141;
+}
+
+p {
+max-width: 960px ;
+margin: 0 auto;
+align-items: center;
+  font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 25px;
+
+
+color: #000000;
+}
+
+/*.sommaire {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-left: 10em;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #414141;
+}*/
+
+.fin {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  max-width: 960px ;
+  margin: 0 auto;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #414141;
+}
+
+.progress {
+  background: linear-gradient(to right, #F9EC31 var(--scroll), transparent 0);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  z-index: 1;
+}
